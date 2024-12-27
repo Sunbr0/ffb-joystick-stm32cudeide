@@ -1,0 +1,11 @@
+../Core/Src/console.c:63:6:console_init	16	static
+../Core/Src/console.c:81:6:console_register_commands	16	static
+../Core/Src/console.c:87:6:console_write	24	static
+../Core/Src/console.c:98:6:console_clear_screen	8	static
+../Core/Src/console.c:103:6:cmd_clear	16	static
+../Core/Src/console.c:111:13:console_start_tx	16	static
+../Core/Src/console.c:139:13:console_send_char	16	static
+../Core/Src/console.c:144:6:console_task	16	static
+../Core/Src/console.c:188:13:console_process_line	40	static
+../Core/Src/console.c:230:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/console.c:238:6:HAL_UART_TxCpltCallback	16	static
