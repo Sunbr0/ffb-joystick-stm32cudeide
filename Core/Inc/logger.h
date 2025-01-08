@@ -21,8 +21,8 @@ typedef enum {
 } log_level_t;
 
 // Logger configuration
-#define LOG_BUFFER_CAPACITY 1024 ///< Ring buffer capacity for log storage
-#define LOG_ENTRY_MAX_LENGTH 128 ///< Maximum length of a single log entry
+#define LOG_BUFFER_CAPACITY 4096 ///< Ring buffer capacity for log storage
+#define LOG_ENTRY_MAX_LENGTH 256 ///< Maximum length of a single log entry
 
 // Function prototypes
 void logger_init(void);

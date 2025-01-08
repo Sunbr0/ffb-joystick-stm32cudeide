@@ -64,8 +64,8 @@ all: main-build
 main-build: basic-testing.elf secondary-outputs
 
 # Tool invocations
-basic-testing.elf basic-testing.map: $(OBJS) $(USER_OBJS) C:\Users\davis\STM32CubeIDE\workspace_1.17.0\basic-testing\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "basic-testing.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\davis\STM32CubeIDE\workspace_1.17.0\basic-testing\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="basic-testing.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+basic-testing.elf basic-testing.map: $(OBJS) $(USER_OBJS) C:\Users\davis\git\ffb-joystick-stm32cudeide\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "basic-testing.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\davis\git\ffb-joystick-stm32cudeide\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="basic-testing.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -28,7 +28,7 @@
 #define CONSOLE_MAX_LINE_LENGTH 256
 #define INPUT_BUFFER_SIZE 256
 #define OUTPUT_BUFFER_SIZE 512
-
+/
 // UART handle
 static UART_HandleTypeDef *g_huart = NULL;
 

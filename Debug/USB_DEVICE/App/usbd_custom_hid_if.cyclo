@@ -1,4 +1,4 @@
-../USB_DEVICE/App/usbd_custom_hid_if.c:945:15:CUSTOM_HID_Init_FS	1
-../USB_DEVICE/App/usbd_custom_hid_if.c:956:15:CUSTOM_HID_DeInit_FS	1
-../USB_DEVICE/App/usbd_custom_hid_if.c:965:8:CUSTOM_HID_OutEvent_FS	3
-../USB_DEVICE/App/usbd_custom_hid_if.c:1030:10:CUSTOM_HID_GetReport	4
+../USB_DEVICE/App/usbd_custom_hid_if.c:1087:15:CUSTOM_HID_Init_FS	1
+../USB_DEVICE/App/usbd_custom_hid_if.c:1098:15:CUSTOM_HID_DeInit_FS	1
+../USB_DEVICE/App/usbd_custom_hid_if.c:1107:8:CUSTOM_HID_OutEvent_FS	5
+../USB_DEVICE/App/usbd_custom_hid_if.c:1172:10:CUSTOM_HID_GetReport	4
